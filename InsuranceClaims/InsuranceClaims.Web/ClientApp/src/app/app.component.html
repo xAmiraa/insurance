@@ -1,0 +1,9 @@
+<app-page-loader></app-page-loader>
+<app-header *ngIf="!_router.url.includes('/auth')"></app-header>
+<app-sidebar *ngIf="!_router.url.includes('/auth')"></app-sidebar>
+<app-right-sidebar></app-right-sidebar>
+<router-outlet></router-outlet>
+
+<ngx-spinner>
+  <p style="color: white"> Loading... </p>
+</ngx-spinner>

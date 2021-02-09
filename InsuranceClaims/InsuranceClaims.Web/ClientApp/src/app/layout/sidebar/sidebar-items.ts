@@ -1,0 +1,147 @@
+import { RouteInfo } from './sidebar.metadata';
+export const ROUTES: RouteInfo[] = [
+  // Dashboard
+  {
+    path: '',
+    title: 'Dashboard',
+    iconType: 'material-icons-two-tone',
+    icon: 'home',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    submenu: [],
+  },
+  // Customers
+  {
+    path: '/customer/customers',
+    title: 'Customers',
+    iconType: 'material-icons-two-tone',
+    icon: 'people',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    submenu: [
+    ]
+  },
+  // Policies
+  {
+    path: '',
+    title: 'Policies',
+    iconType: 'material-icons-two-tone',
+    icon: 'perm_contact_calendar',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    submenu: [],
+  },
+  // Claims
+  {
+    path: '',
+    title: 'Claims',
+    iconType: 'material-icons-two-tone',
+    icon: 'perm_contact_calendar',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    submenu: [],
+  },
+  // Payments
+  {
+    path: '',
+    title: 'Payments',
+    iconType: 'material-icons-two-tone',
+    icon: 'payment',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    submenu: [],
+  },
+  // Upload Bills
+  {
+    path: '',
+    title: 'Upload Bills',
+    iconType: 'material-icons-two-tone',
+    icon: 'file_upload',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    submenu: [],
+  },
+  // Upload Payments
+  {
+    path: '',
+    title: 'Upload Payments',
+    iconType: 'material-icons-two-tone',
+    icon: 'cloud_upload',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    submenu: [],
+  },
+  // References
+  {
+    path: '',
+    title: 'References',
+    iconType: 'material-icons-two-tone',
+    icon: 'insert_drive_file',
+    class: 'menu-toggle',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    submenu: [
+      {
+        path: '/lookup/identification-types',
+        title: 'Identification Types',
+        iconType: '',
+        icon: '',
+        class: 'ml-menu',
+        groupTitle: false,
+        badge: '',
+        badgeClass: '',
+        submenu: [],
+      },
+      {
+        path: '/lookup/policy-insurers',
+        title: 'Policy Insurers',
+        iconType: '',
+        icon: '',
+        class: 'ml-menu',
+        groupTitle: false,
+        badge: '',
+        badgeClass: '',
+        submenu: [],
+      },
+    ],
+  },
+  // User Management
+  {
+    path: '',
+    title: 'User Management',
+    iconType: 'material-icons-two-tone',
+    icon: 'person',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    submenu: [],
+  },
+  // Reports
+  {
+    path: '',
+    title: 'Reports',
+    iconType: 'material-icons-two-tone',
+    icon: 'assignment',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    submenu: [],
+  },
+];
